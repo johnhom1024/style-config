@@ -2,7 +2,11 @@
   "name": "style-config",
   "version": "1.0.0",
   "description": "tailwindcss preset",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsc -w -p .",
     "build": "tsc -p ."
