@@ -1,0 +1,16 @@
+{
+  "name": "style-config",
+  "version": "1.0.0",
+  "description": "tailwindcss preset",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
