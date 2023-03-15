@@ -1,19 +1,25 @@
 {
-  "name": "style-config",
+  "name": "@johnhom/style-config",
   "version": "1.0.0",
-  "description": "tailwindcss preset",
+  "description": "tailwindcss/windicss preset",
+
+  "author": "johnhom",
+  "license": "ISC",
   "main": "./dist/index.js",
   "typings": "dist/index.d.ts",
+  "homepage": "https://github.com/johnhom1024/style-config",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "windicss",
+    "preset"
   ],
   "scripts": {
     "dev": "tsc -w -p .",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.5"
   }
