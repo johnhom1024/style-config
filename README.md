@@ -10,4 +10,18 @@ yarn add -D @johnhom/style-config
 # 或者 npm install -D @johnhom/style-config
 ```
 
-## 使用方式
+## 导入`style-config`
+
+在`tailwind.config.js`或者`windi.config.js`文件下，导入`@johnhom/style-config`:
+
+```json
+import { createPreset } from '@jonhom/style-config'
+
+module.exports = {
+  presets: [
+    createPreset({
+      unit: 'px'
+    })
+  ]
+}
+```
