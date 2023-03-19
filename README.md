@@ -1,6 +1,6 @@
 # style-config
 
-一个`tailwind`或者`windicss`的`preset`。
+一个`tailwind`或者`windicss`的`preset`，默认的css单位使用`px`。
 
 ## 安装
 
