@@ -2,7 +2,6 @@
   "name": "@johnhom/style-config",
   "version": "1.0.0",
   "description": "tailwindcss/windicss preset",
-
   "author": "johnhom",
   "license": "ISC",
   "main": "./dist/index.js",
@@ -11,6 +10,10 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  },
   "keywords": [
     "tailwindcss",
     "windicss",
