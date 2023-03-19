@@ -14,7 +14,7 @@ yarn add -D @johnhom/style-config
 
 在`tailwind.config.js`或者`windi.config.js`文件下，导入`@johnhom/style-config`:
 
-```json
+```
 import { createPreset } from '@jonhom/style-config'
 
 module.exports = {
@@ -25,3 +25,11 @@ module.exports = {
   ]
 }
 ```
+
+## 预设值
+
+createPreset会创建一个预设的值，具体生成的预设值如下：
+
+### 宽度和高度的值 Width、Height
+
+**具体的值范围为：1~800整数**
