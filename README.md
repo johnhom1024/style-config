@@ -15,7 +15,7 @@ yarn add -D @johnhom/style-config
 在`tailwind.config.js`或者`windi.config.js`文件下，导入`@johnhom/style-config`:
 
 ```
-import { createPreset } from '@johnhom/style-config'
+const { createPreset } = require('@johnhom/style-config');
 
 module.exports = {
   presets: [
