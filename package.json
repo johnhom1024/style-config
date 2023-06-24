@@ -21,9 +21,12 @@
   ],
   "scripts": {
     "dev": "tsc -w -p .",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "release": "release-it"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.11.0",
     "typescript": "^4.9.5"
   }
 }
