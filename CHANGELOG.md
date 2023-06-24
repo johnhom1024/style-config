@@ -1,5 +1,7 @@
 
 
+## [1.1.1](https://github.com/johnhom1024/style-config/compare/1.1.0...1.1.1) (2023-06-24)
+
 # 1.1.0 (2023-06-24)
 
 
