@@ -108,9 +108,8 @@ export function createPreset({ unit = 'px' } = {}) {
         auto: 'auto',
       },
       borderWidth: {
-        0: 0,
         DEFAULT: `1${unit}`,
-        ...getPxRange(2, 200, 0.5),
+        ...getPxRange(0, 200, 0.5),
       },
       borderRadius: {
         ...getPxRange(1, 100, 0.5),
